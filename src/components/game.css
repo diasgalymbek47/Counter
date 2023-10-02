@@ -1,0 +1,47 @@
+.clicker {
+    padding: 20px;
+}
+.title {
+    margin: 0;
+}
+.settings {
+}
+.settings-field {
+    width: 300px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 12px;
+
+    font-weight: 500;
+    color: #fff;
+
+    border: none;
+    background-color: #1f1f1f;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:active {
+    scale: 1.1;
+}
+
+.count {
+    width: 20px;
+
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 18px;
+}
